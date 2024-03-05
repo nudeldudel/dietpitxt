@@ -134,7 +134,8 @@ AUTO_SETUP_INSTALL_SOFTWARE_ID=0
 AUTO_SETUP_INSTALL_SOFTWARE_ID=73
 AUTO_SETUP_INSTALL_SOFTWARE_ID=134
 AUTO_SETUP_INSTALL_SOFTWARE_ID=162
-AUTO_SETUP_INSTALL_SOFTWARE_ID=172
+# AUTO_SETUP_INSTALL_SOFTWARE_ID=172
+# move to script for --unattended installation
 
 #------------------------------------------------------------------------------------------------------
 ##### Misc DietPi program settings #####
