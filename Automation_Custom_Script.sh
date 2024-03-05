@@ -1,7 +1,9 @@
 #!/bin/bash
 export DEBIAN_FRONTEND=noninteractive
 apt-get -yqq update || apt-get -yqq update
-apt-get -yqq install wireguard qrencode 
+apt-get -yqq install wireguard qrencode dnsutils rsync
+
+mkdir /var/lib/apt/periodic
 
 cat <<EOF > /etc/wireguard/wg.conf
 [Interface]
